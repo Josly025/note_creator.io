@@ -1,0 +1,25 @@
+{
+  "name": "note_creator.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apiRoute.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josly025/note_creator.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josly025/note_creator.io/issues"
+  },
+  "homepage": "https://github.com/Josly025/note_creator.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm-watch": "^0.7.0",
+    "watch": "^1.0.2"
+  }
+}

@@ -12,11 +12,11 @@ module.exports = function (app) {
   // HTML GET Request -- Below code handles when users "visit" a page --> show the content
 
   app.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/assets/notes.html"));
+    res.sendFile(path.join(__dirname, "./Develop/public/notes.html"));
   });
 
   // If no matching route is found default to home (index.html file)
   app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/assets/index.html"));
+    res.sendFile(path.join(__dirname, "./Develop/public/index.html"));
   });
 };
