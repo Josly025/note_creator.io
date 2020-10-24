@@ -2,9 +2,10 @@
   "name": "note_creator.io",
   "version": "1.0.0",
   "description": "",
-  "main": "apiRoute.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,9 @@
   },
   "homepage": "https://github.com/Josly025/note_creator.io#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "npm-watch": "^0.7.0",
-    "watch": "^1.0.2"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
