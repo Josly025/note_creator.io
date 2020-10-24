@@ -32,9 +32,8 @@ module.exports = function (app) {
       noteCreation();
       console.log("Deleted note: " + req.params.id);
     });
-    //POST /api/notes
-    //Should receive a new note to save to req.body, add it to the db.jSON file, and then return the new note to the client
 
+    //POST /api/notes
     // HTML GET Requests -- Below code handles when users "visit" a page --> show the content
     app.get("/notes", function (req, res) {
       res.sendFile(path.join(__dirname, "./public/notes.html"));
